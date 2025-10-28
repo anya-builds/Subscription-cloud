@@ -1,4 +1,6 @@
 import { config } from "dotenv";
+// import PORT, NODE_ENV from ""
+
 
 config({path:`.env.${process.env.NODE_ENV || 'development'}.local`});
 
